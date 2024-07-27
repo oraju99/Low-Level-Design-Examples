@@ -1,6 +1,6 @@
 package com.example.SnakeAndLadder;
 
-public class Main {
+public class SnakeAndLadder {
     public static void main(String[] args) {
         Game game = new Game();
         game.startGame();
