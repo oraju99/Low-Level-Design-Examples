@@ -13,7 +13,7 @@ public class OrderController {
     private OrderService orderService;
 
     @PostMapping("/order/place-order")
-    public void placeOrder(@RequestBody PlaceOrderRequest placeOrderRequest) {
+    public void placeOrder(@RequestBody PlaceOrderRequest placeOrderRequest) throws Exception {
         // service layer to
 
         orderService.placeOrder(placeOrderRequest);
