@@ -1,6 +1,5 @@
 package com.example.Splitwise;
 
-import com.example.ParkingLot.ParkingLot;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
